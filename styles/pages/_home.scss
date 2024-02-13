@@ -1,0 +1,19 @@
+.wrapper{ 
+    @include absmiddle;
+}
+button{
+    padding: 15px 35px;
+    background-color: pink;
+    border: 3px solid purple;
+    &:not(last-child){
+        margin-right: 10px;
+    }
+}
+.active{
+    background-color: purple;
+    border: 4px solid pink;
+    color: #fff;
+    &:hover{
+        cursor: pointer;
+    }
+}
